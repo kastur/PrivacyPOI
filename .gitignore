@@ -1,1 +1,3 @@
 *.swp
+POICommander/gen/*
+POICommander/local.properties
