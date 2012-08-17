@@ -21,7 +21,6 @@ longitude) format.
 Here are some of the POI categories, and reasonable default "privacy" ratings
 assigned to each:
 
-<MTMarkdownOptions output='raw'>
   place_of_worship, 10, perturb or prevent
   school, 3, share
   fast_food, -3, share
@@ -69,10 +68,8 @@ assigned to each:
   kindergarten, 1, neutral
   nightclub, -5, share
   prison, 10, perturb or prevent
-</MTMarkdownOptions>
 
-What does the privacy rating mean?
-<MTMarkdownOptions output='raw'>
+### What does the privacy rating mean? ###
 prevent = this is a place that the person is unlikely to want a corporation to know about: reveals the religion, medical issues, or other sensitive personal situation. These places are frequented by the user, and sharing such habitual visits gives away the sensitive information. We should not let any third parties know about or predict the user visit to this place.
 
 perturb = this is a place that the person is unlikely to share with others, so we can perturb the true location. These places are not easily modeled by mobility models, and are sort of one-time or spontaneous visits. For example: the user visits a police station...this is probably not habitual.
